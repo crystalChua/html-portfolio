@@ -1,0 +1,220 @@
+body {
+    font-family: "Garamond";
+    font-weight: 600;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.moremargin{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.a:link{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.a:visited{
+    color:black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.a:hover{
+    color: #D0A2F7;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.span {
+    content: "\2709";
+    font-size: 40px;
+  }
+
+#title {
+    background-color: white;
+    color: #F1EAFF;
+}
+
+.font {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+/* navbar */
+.navbar {
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    padding: 1% 0;
+    font-size: 1.7rem;
+
+}
+
+.navbar-brand {
+    padding: 0.5% 5%;
+    font-size: 2rem;
+}
+
+.navbar-bar {
+    padding: 0.5% 10%;
+}
+
+.nav-item {
+    padding: 0.5% 3%;
+}
+
+nav.hide-nav {
+    position: fixed;
+    top: -150px;
+    transition: top 0.5s ease-in-out;
+    animation: slideUp 0.5s;
+}
+
+
+/* profile */
+#profile {
+    background-color: white;
+    margin: 6.5% 0% 0%;
+    padding: 2% 5% 5%;
+}
+
+.profile-desc {
+    text-align: center;
+    padding: 7% 7% 3%;
+}
+
+.profile-img {
+    display: grid;
+    place-items: center;
+    height: 30vh;
+}
+
+.profile-img-fluid {
+    height: 12rem;
+    width: 12rem;
+    border-radius: 100%;
+}
+
+.btn-about-me {
+    margin: 2.5% 0%;
+    font-size: 1.5rem;
+}
+
+.btn-outline-primary,
+.btn.btn-outline-primary:active {
+    color: #000;
+    background-color: #DCBFFF;
+    border-color: #E5D4FF;
+}
+
+.btn-outline-primary:hover {
+    background-color: #DCBFFF;
+    border-color: #E5D4FF;
+}
+
+/* Introduction */
+#about {
+    padding: 10% 5%;
+}
+
+.about-desc {
+    padding: 7%;
+}
+
+/* Project  */
+#project {
+    background-color: white;
+}
+
+.project-img-fulid {
+    width: 100%;
+    height: auto;
+}
+
+.project-container {
+    padding: 3% 5%;
+}
+
+.project-desc {
+    padding: 5% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.align-items-center {
+    padding: 0% 40%;
+}
+
+/* Contact */
+#contact {
+    padding: 10% 5%;
+}
+
+/* Footer */
+.back-top {
+    position: fixed;
+    bottom: 60px;
+    right: 90px;
+}
+
+.fa-angle-up {
+    color: #D0A2F7;
+    background-color: #DCBFFF;
+    border-radius: 100%;
+    padding: 120% 100%;
+}
+
+.fa-angle-up:hover {
+    background-color: #E5D4FF;
+}
+
+/* Favicon Style */
+.fa-brands {
+    color: #D0A2F7;
+    background-color: white;
+    font-size: 48px;
+}
+
+.btn-primary,
+.btn.btn-primary:active {
+    display: inline-block;
+    color: #000;
+    background-color: #DCBFFF;
+    border-color: #E5D4FF;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.btn-primary:hover {
+    background-color: #DCBFFF;
+    border-color: #E5D4FF;
+}
+
+/* color group 
+D0A2F7
+DCBFFF
+E5D4FF
+F1EAFF */
+
+.table{
+    border-color: black;
+    
+}
